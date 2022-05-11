@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-size: large;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: palegreen;
+    width: 200%;
+    min-width: 3rem;
+    max-width: 20rem;
+    min-height: 5rem;
+    margin: inherit;
+    position: relative;
+    bottom: 3%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    min-width: 30rem;
+    max-width: 50rem;
+    min-height: 50rem;
+    font-size: medium;
+    border: 2px black solid;
+    background-color: palegoldenrod;
+    border-radius: 5px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.container p {
+    position: relative;
+    margin: 0 auto;
+    top: 40%;
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 80%;
+    
+}
+
